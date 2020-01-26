@@ -13,7 +13,6 @@
     <link rel="shortcut icon" href="favicon.png" type="image/png">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <title>Роскошный дом</title>
 </head>
@@ -194,7 +193,7 @@
                     if(count($houseFilt) > 0):
                         foreach ($houseFilt as $house):
                 ?>
-                <div class="col-lg-4">
+                <div class="col-lg-3 col-md-4 col-xs-12">
                     <div class="variant">
                         <img src="<?php echo $house->getPhotos()[0];?>" class="img-thumbnail transition-scale">
                         <p>Площадь: <?php echo $house->getSpace();?> м<sup>2</sup></p>
@@ -205,7 +204,7 @@
                                 <div class="col-lg-6 col-lg-offset-3 mx-auto">
                                     <form action="<?php echo $view ?>" method="POST">
                                         <input type="hidden" name="house" value="<?php echo $house->getID(); ?>">
-                                        <button type="subnit" class="btn btn-success btn-lg"><?php echo $lookAt ?></button>
+                                        <button type="submit" class="btn btn-success btn-lg"><?php echo $lookAt ?></button>
                                     </form>
                                 </div>
                             </div>
