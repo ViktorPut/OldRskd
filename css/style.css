@@ -1,0 +1,163 @@
+.container{
+	margin-top: 40px;
+}
+.row{
+	margin: 5px auto;
+}
+.variant{
+	margin: 10px auto;
+	border: 1px solid #cccccc;
+	padding-bottom: 50px;
+}
+.variant img{
+	width: 100%;
+}
+.variant p{
+	/*height: 100%*/
+	padding: 5px 10px;
+	margin: 0;
+
+}
+.form-descr {
+}
+.header{
+	background-color: black;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.auth p{
+	text-align: right;
+}
+.header p{
+	font-size: 20px;
+
+	
+}
+.header a{
+	text-decoration: none;
+	color: white;
+}
+.header a:hover{
+	color: blue;
+}
+.filter{
+	padding: 15px;
+	margin-top: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border: 1px solid #CCCCCC;
+	width: 100%;
+}
+.catalog{
+
+}
+.catalog .img-thumbnail{
+	min-height: 220px;
+	max-height: 220px;
+}
+.navbar-brand img{
+	width: 150px;
+}
+.nav-link {font-size: 1.3em !important}
+
+header .navbar{
+	background-image: url('../back.jpg');
+	background-repeat:  no-repeat;
+	background-size: 100%;
+}
+.transition-scale {
+  position: relative;
+  z-index: 2;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.transition-scale:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+	z-index: 3;
+}
+.nav-link span{
+	color: black;
+	font-size: 1.6em;
+	font-family: "Monotype Corsiva";
+	font-weight: bold;
+}
+#navbarResponsive a span:hover{
+	color: #622C00;
+}
+.contactInfo{
+	text-align: left;
+}
+.contactInfo span{
+	line-height: 0.8;
+	font-size: 1.8em;
+}
+.container-fluid p span{
+	color: black;
+	font-size: 1.3em;
+}
+.navbar-brand{
+	text-align: center;
+	line-height: 0.75;
+}
+.mc{
+    font-family: "Monotype Corsiva";
+    font-style: italic;
+    font-weight: bold;
+}
+.an{
+	font-size: 1.5em;
+}
+.rh{
+	font-size: 1.5em;
+}
+a img{
+	padding-left: 5%;
+	padding-bottom: 2%;
+}
+.social{
+	margin: 0 auto;
+}
+.social a {
+	text-align: center;
+	width: 48px;
+	height: 48px;
+	float: left;
+	background: #c07e28;
+	border: 1px solid black;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+	border-radius: 24px;
+	margin: 0 10px 10px 0;
+	padding: 6px;
+	color: #000;
+}
+.instagram a:hover {background: #FD1D1D; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.odnoklassniki a:hover {background: #f93; color: #fff;}
+
+.login a span{
+	font-size: 1.4em;
+}
+
+.choise a{
+	margin-left: 7px;
+}
+.choise button{
+	margin-left: 15px;
+}
+
+.catalog .col-lg-4 .variant {
+	height: 95%;
+}
+
+.variant .form-descr{
+	text-align: center;
+	position: absolute;
+	bottom: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}

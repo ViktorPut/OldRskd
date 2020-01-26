@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    border-radius: 10px;
+}
+
+html, body{
+    height: 100%;
+}
+.block-body{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    flex: 1 0 auto;
+}
+
+body {
+    min-height: 100%;
+    background-color: #ffefd5;
+}
+.block-body {
+    width: all;
+    margin: 5px auto;
+    height: all;
+}
+header {
+   width: 1035px; 
+   height: 80px;
+   margin: 5px auto;
+   background-color: black;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+
+footer {
+    /*left: 0;
+    bottom: 0;
+    width: 100%;
+    height:  100px;
+    
+    position: relative;
+    margin-bottom: 0px;*/
+    flex: 0 0 auto;
+    background-color: black;
+}
+.container{
+    width: 1035px;
+    margin: 20px auto;
+    min-height: 100%; /* */
+    box-sizing: border-box;
+    padding-bottom: 90px;
+}
+.logo {
+    width: 200px;
+    float: left;
+    height: 80px;
+}
+.logo a {
+    display: block;
+    margin-left: 15px;
+    margin-top: 10px;
+    font-family: "Exo2-Bold", sans-serif;
+    font-size: 28px;
+    color:  #b2aeb2;
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo img {
+    width: auto;
+    height: 55px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.top-menu {
+    width: 685px;
+    height: 80px;
+    float: left;
+}
+.top-menu ul li {
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.top-menu ul li a {
+    display: block;
+    width: 171px;
+    text-decoration: none;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 17px;
+    color: white;
+    height: 55px;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.top-menu ul li a:hover {
+    transition: all 0.5s ease;
+    background: #00ADE4;
+}
+.block-top-auth {
+    width: 100px;
+    float: left;
+    margin-left: 40px;
+    height: 80px;
+}
+.block-top-auth p {
+    margin-top: 26px;
+    text-align: center;
+    margin-bottom: 8px;
+    
+}
+.block-top-auth a {
+    text-decoration: none;
+    color: white;
+    font-family:  "Exo2-Medium", sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.block-top-auth a:hover {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    color: #00ADE4;
+}
+
+
+.nav-link span{
+    color: black;
+    font-size: 1.6em;
+    font-family: "Monotype Corsiva";
+    font-weight: bold;
+}
+#navbarResponsive a span:hover{
+    color: #622C00;
+}
+.contactInfo{
+    text-align: left;
+}
+.contactInfo span{
+    line-height: 0.8;
+    font-size: 1.8em;
+}
+.container-fluid p span{
+    color: black;
+    font-size: 1.3em;
+}
+.navbar-brand{
+    text-align: center;
+    line-height: 0.75;
+}
+.mc{
+    font-family: "Monotype Corsiva";
+    font-style: italic;
+    font-weight: bold;
+}
+.an{
+    font-size: 1.5em;
+}
+.rh{
+    font-size: 1.5em;
+}
+a img{
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+.social{
+    margin: 0 auto;
+}
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #c07e28;
+    border: 1px solid black;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.instagram a:hover {background: #FD1D1D; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.odnoklassniki a:hover {background: #f93; color: #fff;}
+
+.login a span{
+    font-size: 1.4em;
+}
