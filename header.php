@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div class="container-fluid">
             <a href="index.php" class="navbar-brand">
-                <img src="krown.png" style="max-width: 20%"><br>
+                <img src="krown.png" style="max-width: 20%" alt="favicon" /><br>
                 <span class="an mc">АН</span><br>
                 <span class="agn mc">агенство недвижимости</span><br>
                 <span class="rh mc">Роскошный дом</span>
